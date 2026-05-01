@@ -1,6 +1,6 @@
 print("Welcome to the library.")
-library_books = ["the great gatsby", "harry potter","kite runner", "the alchemist", "gone with the wind"]
-book_prices = {"the great gatsby": 150, "harry potter": 200," kite runner": 160,"the alchemist": 170, "gone with the wind": 190}
+library_books = ["the great gatsby", "harry potter", "kite runner", "the alchemist", "gone with the wind"]
+book_prices = {"the great gatsby": 150, "harry potter": 200,"kite runner": 160,"the alchemist": 170, "gone with the wind": 190}
 borrowed_books = []
 def display_library_books():
     if not library_books:
